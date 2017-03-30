@@ -3,6 +3,12 @@
 
 Powershell scripts to help move local file shares.
 
+I used this script to move file shares between two drives on the same file server where DFS was not configured.
+
+There were three instances where shares did not successfully migrate our of 25 shares. I assume this was possibly due to file locks, so ensure no one is using the share when you move it.
+
+This script is provided as is, without warranty, I accept no liability if it goes wrong.
+
 ## Installation
 
 
