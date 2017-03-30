@@ -5,7 +5,7 @@
 .DESCRIPTION
     Uses robocopy to transfer share data and NTFS permissions to another local drive.
     It then recreates the share and share permissions on this new location.
-    A final robocopy is done to transfer any changes files since the start of the operation.
+    A final robocopy is done to transfer any changed files since the start of the operation.
 
 .PARAMETER ShareName
     The name of the Share that you would like to move.
